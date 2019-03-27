@@ -51,7 +51,7 @@ Image data shape = (32, 32, 3)
 Number of classes = 43
 ```
 
-Here is an exploratory visualization of example of some classes:
+Here is an exploratory visualization of examples of some classes:
 
 Class 0: Speed limit (20km/h)
 ![alt text][image1]
@@ -167,7 +167,7 @@ The following is the accuracy of the validation set along the epochs
 
 ![alt text][image12]
 
-The obtained accuracy of test set was ***95.2%***
+The obtained accuracy of test set was **95.2%**
 
 #### 2. Model Architecture: Adapted Architecture for Traffic Sign Recognition
 
@@ -210,7 +210,7 @@ The following is the accuracy of the validation set along the epochs
 
 ![alt text][image14]
 
-The obtained accuracy of test set was ***96.4%***, which is a better performance than the traditional model architecture.
+The obtained accuracy of test set was **96.4%**, which is a better performance than the traditional model architecture.
 
 ### Test a Model on New Images
 
@@ -218,11 +218,11 @@ Since I am located in Germany, I was able to go out to the street and take a few
 
 ![alt text][image15]
 
-Then, this set of new images was classified using the adapted architecture model, since this one had the best performance. As shown in the following figure, the model correctly classified all images, i.e., achieved an accuracy of ***100%***, which is higher than the one achived with the test set.
+Then, this set of new images was classified using the adapted architecture model, since this one had the best performance. As shown in the following figure, the model correctly classified all images, i.e., achieved an accuracy of **100%**, which is higher than the one achived with the test set.
 
 ![alt text][image16]
 
-The softmax probabilities are shown in the following image. As can be observed, the model performance solid classification decisions in all the 6 images, since the probabilities for the right choices were around ***100%***.
+The softmax probabilities are shown in the following image. As can be observed, the model performance solid classification decisions in all the 6 images, since the probabilities for the right choices were around **100%**.
 
 ![alt text][image17]
 
@@ -231,7 +231,7 @@ The softmax probabilities are shown in the following image. As can be observed, 
 
 #### 1. Summary
 
-In this project, it was implemented an traffic sign classifier using CNNs. Two different architectures were implemented. The first one is the traditional LeNet-5 that achieved a ***95.2** accuracy on the test set, and the second is an adapted architecture that achieved a ***96.4*** accuracy on the test set.
+In this project, it was implemented an traffic sign classifier using CNNs. Two different architectures were implemented. The first one is the traditional LeNet-5 that achieved a **95.2** accuracy on the test set, and the second is an adapted architecture that achieved a **96.4** accuracy on the test set.
 
 During the implementation and evaluation of both models it was observed that the main aspects that impacts the performance are the size of the training set, the use of dropout and the architecture.
 
