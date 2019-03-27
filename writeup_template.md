@@ -51,7 +51,7 @@ Image data shape = (32, 32, 3)
 Number of classes = 43
 ```
 
-Here is an exploratory visualization of example of some classes:
+Here is an exploratory visualization of examples of some classes:
 
 Class 0: Speed limit (20km/h)
 ![alt text][image1]
