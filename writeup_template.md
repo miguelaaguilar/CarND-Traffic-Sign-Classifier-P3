@@ -218,11 +218,11 @@ Since I am located in Germany, I was able to go out to the street and take a few
 
 ![alt text][image15]
 
-Then, this set of new images was classified using the adapted architecture model, since this one had the best performance. As shown in the following figure, the model correctly classified all images, i.e., achieved an accuracy of ***100%***, which is higher than the one achived with the test set.
+Then, this set of new images was classified using the adapted architecture model, since this one had the best performance. As shown in the following figure, the model correctly classified all images, i.e., achieved an accuracy of **100%**, which is higher than the one achived with the test set.
 
 ![alt text][image16]
 
-The softmax probabilities are shown in the following image. As can be observed, the model performance solid classification decisions in all the 6 images, since the probabilities for the right choices were around ***100%***.
+The softmax probabilities are shown in the following image. As can be observed, the model performance solid classification decisions in all the 6 images, since the probabilities for the right choices were around **100%**.
 
 ![alt text][image17]
 
