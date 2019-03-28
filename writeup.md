@@ -214,7 +214,19 @@ The obtained accuracy of test set was **96.4%**, which is a better performance t
 
 ### Test a Model on New Images
 
-Since I am located in Germany, I was able to go out to the street and take a few pictures of traffic signs as shown in the following figure.
+When analyzing new images (never seen by the model before), some of their characteristics may represent a challenge for the model to perform a proper classification. Some of these qualities are:
+
+* Brightness
+* Contrast
+* Blur
+* Noise (e.g., due to rain, fog, etc)
+* Resolution
+* Rotation
+* Deformation (due to the angle of the traffic sign with respect to the camera)
+
+As previously discussed, a way of improving the robustness of the models is to augment the training dataset with new images that present these qualities. In this way, the model will learn to properly classify images even in the presence of these challenging image characteristics.
+
+In this section, new German traffic signs are evaluated. Since I am located in Germany, I was able to go out to the street and take a few pictures of traffic signs as shown in the following figures.
 
 ![alt text][image15]
 
